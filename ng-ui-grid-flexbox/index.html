@@ -1,10 +1,23 @@
 ﻿<!DOCTYPE html>
-<html>
+<html ng-app="app">
 <head>
     <title></title>
 	<meta charset="utf-8" />
+    
+    <!-- angular ui grid styles -->
+    <link href="bower_components/angular-ui-grid/ui-grid.min.css" rel="stylesheet" />
+
+    <!-- app styles -->
+    <link href="styles/app.css" rel="stylesheet" />
+
+    <!-- angular js and angular ui grid scripts -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-ui-grid/ui-grid.min.js"></script>
+
+    <!-- app scripts -->
+    <script src="content/app.module.js"></script>
 </head>
 <body>
-    <h1>hello, world</h1>
+    <div id="include-content" ng-include="'content/app.html'"></div>
 </body>
 </html>

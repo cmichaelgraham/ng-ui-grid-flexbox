@@ -67,6 +67,49 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="bower.json" />
+    <Content Include="bower_components\angular\.bower.json" />
+    <Content Include="bower_components\angular\angular.min.js.gzip" />
+    <Content Include="bower_components\angular\angular.min.js.map" />
+    <Content Include="bower_components\angular\bower.json" />
+    <Content Include="bower_components\angular\package.json" />
+    <Content Include="bower_components\angular\README.md" />
+    <Content Include="bower_components\angular-ui-grid\.bower.json" />
+    <Content Include="bower_components\angular-ui-grid\bower.json" />
+    <Content Include="bower_components\angular-ui-grid\less\animation.less" />
+    <Content Include="bower_components\angular-ui-grid\less\body.less" />
+    <Content Include="bower_components\angular-ui-grid\less\bootstrap\bootstrap.less" />
+    <Content Include="bower_components\angular-ui-grid\less\cell.less" />
+    <Content Include="bower_components\angular-ui-grid\less\cellnav\less\cellNav.less" />
+    <Content Include="bower_components\angular-ui-grid\less\edit\less\edit.less" />
+    <Content Include="bower_components\angular-ui-grid\less\elements.less" />
+    <Content Include="bower_components\angular-ui-grid\less\expandable\less\expandable.less" />
+    <Content Include="bower_components\angular-ui-grid\less\exporter\less\exporter.less" />
+    <Content Include="bower_components\angular-ui-grid\less\footer.less" />
+    <Content Include="bower_components\angular-ui-grid\less\goups.less" />
+    <Content Include="bower_components\angular-ui-grid\less\grid.less" />
+    <Content Include="bower_components\angular-ui-grid\less\grouping\less\grouping.less" />
+    <Content Include="bower_components\angular-ui-grid\less\header.less" />
+    <Content Include="bower_components\angular-ui-grid\less\icons.less" />
+    <Content Include="bower_components\angular-ui-grid\less\importer\less\importer.less" />
+    <Content Include="bower_components\angular-ui-grid\less\main.less" />
+    <Content Include="bower_components\angular-ui-grid\less\menu.less" />
+    <Content Include="bower_components\angular-ui-grid\less\move-columns\less\colMovable.less" />
+    <Content Include="bower_components\angular-ui-grid\less\pagination\less\pagination.less" />
+    <Content Include="bower_components\angular-ui-grid\less\pinning\less\pinning.less" />
+    <Content Include="bower_components\angular-ui-grid\less\resize-columns\less\column-resizer.less" />
+    <Content Include="bower_components\angular-ui-grid\less\row-edit\less\rowEdit.less" />
+    <Content Include="bower_components\angular-ui-grid\less\rtl.less" />
+    <Content Include="bower_components\angular-ui-grid\less\selection\less\selection.less" />
+    <Content Include="bower_components\angular-ui-grid\less\sorting.less" />
+    <Content Include="bower_components\angular-ui-grid\less\tree-base\less\tree-base.less" />
+    <Content Include="bower_components\angular-ui-grid\less\tree-view\less\tree-view.less" />
+    <Content Include="bower_components\angular-ui-grid\less\variables.less" />
+    <Content Include="bower_components\angular-ui-grid\package.json" />
+    <Content Include="bower_components\angular-ui-grid\README.md" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.eot" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.ttf" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.woff" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -75,7 +118,19 @@
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="bower_components\angular-ui-grid\ui-grid.css" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.js" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.min.css" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.min.js" />
+    <Content Include="bower_components\angular-ui-grid\ui-grid.svg" />
+    <Content Include="bower_components\angular\angular-csp.css" />
+    <Content Include="bower_components\angular\angular.js" />
+    <Content Include="bower_components\angular\angular.min.js" />
+    <Content Include="bower_components\angular\index.js" />
+    <Content Include="content\app.html" />
+    <Content Include="content\app.module.js" />
     <Content Include="index.html" />
+    <Content Include="styles\app.css" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
