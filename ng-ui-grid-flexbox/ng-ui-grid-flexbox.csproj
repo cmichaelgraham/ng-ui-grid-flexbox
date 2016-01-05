@@ -129,6 +129,8 @@
     <Content Include="bower_components\angular\index.js" />
     <Content Include="content\app.html" />
     <Content Include="content\app.module.js" />
+    <Content Include="content\grid-view.html" />
+    <Content Include="content\grid-viewmodel.js" />
     <Content Include="index.html" />
     <Content Include="styles\app.css" />
     <Content Include="Web.config" />
