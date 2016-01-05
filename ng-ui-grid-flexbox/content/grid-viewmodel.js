@@ -1,6 +1,6 @@
 ﻿(function (module) {
 
-    module.controller('gridViewModel', [function () {
+    module.controller('gridViewModel', ['$window', '$timeout', function ($window, $timeout) {
 
         var gridData = [
             { LastName: 'Graham', FirstName: 'Mike', FavoriteColor: 'green', GitHubID: 'cmichaelgraham' },
@@ -17,8 +17,20 @@
                 { name: 'FirstName', field: 'FirstName', width: '25%' },
                 { name: 'FavoriteColor', field: 'FavoriteColor', width: '25%' },
                 { name: 'GitHubID', field: 'GitHubID', width: '25%' }
-            ]
+            ],
+            onRegisterApi: function (gridApi) {
+                o.gridApi = gridApi;
+            }
         };
+
+        var w = angular.element($window);
+        w.bind('resize', function () {
+            if (o.gridApi) {
+                $timeout(function () {
+                    o.gridApi.core.handleWindowResize();
+                }, 100);
+            }
+        });
 
         var o = {
             message: 'this is the grid-viewmodel message...',
