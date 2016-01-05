@@ -1,0 +1,27 @@
+{
+  "name": "ng-ui-grid-flexbox",
+  "homepage": "https://github.com/cmichaelgraham/ng-ui-grid-flexbox",
+  "description": "experiment in dynamic resizing with flexbox and ui-grid",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "angularjs",
+    "ui-grid",
+    "flexbox"
+  ],
+  "authors": [
+    "cmichaelgraham"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "angularjs#~1.4.8",
+    "angular-ui-grid": "~3.0.7"
+  }
+}
