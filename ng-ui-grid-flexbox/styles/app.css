@@ -13,13 +13,13 @@ body {
 #include-content {
     display: flex;
     flex-direction: row;
-    flex: auto;
+    flex: 1;
 }
 
 .include-template {
     display: flex;
     flex-direction: row;
-    flex: auto;
+    flex: 1;
 }
 
 #nav-panel-container {
@@ -30,7 +30,7 @@ body {
 }
 
 #nav-panel {
-    flex: auto;
+    flex: 1;
     background-color:lightblue;
 }
 
@@ -42,7 +42,7 @@ body {
 #body-container {
     display: flex;
     flex-direction: column;
-    flex: auto;
+    flex: 1;
     min-width: 100px;
 }
 
@@ -52,20 +52,33 @@ body {
     background-color: green;
 }
 
-#body-container {
-    flex: auto;
+#body-container-grid {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
     min-height: 100px;
-    background-color: lightgreen;
 }
 
 #grid-view {
     display: flex;
     flex-direction: column;
-    flex: auto;
+    flex: 1;
+}
+
+#grid-view-header {
+    background-color: lightgreen;
 }
 
 #grid-view-body {
-    flex: auto;
-    background-color: orange;
-    border: 2px solid black;
+    position: relative;
+    flex: 1;
+    background-color: white;
+}
+
+#grid-view-grid {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0px;
+    bottom: 2px;
 }

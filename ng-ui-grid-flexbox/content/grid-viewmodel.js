@@ -23,15 +23,6 @@
             }
         };
 
-        var w = angular.element($window);
-        w.bind('resize', function () {
-            if (o.gridApi) {
-                $timeout(function () {
-                    o.gridApi.core.handleWindowResize();
-                }, 100);
-            }
-        });
-
         var o = {
             message: 'this is the grid-viewmodel message...',
             gridData: gridData,
